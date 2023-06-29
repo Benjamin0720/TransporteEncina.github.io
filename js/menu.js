@@ -3,7 +3,7 @@ $(document).ready(main);
 var contador = 1;
 
 function main(){
-	$('.menu_bar').click(function(){
+	$('.menu_bar').on("click", function(){
 		// $('nav').toggle(); 
 
 		if(contador == 1){

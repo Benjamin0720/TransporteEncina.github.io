@@ -8,14 +8,14 @@ body {
 }
 
 header {
-	width:100%;
+	width:95%;
 	position: fixed;
 	z-index: 10;
 }
 
 header nav {
-	width:90%;
-	max-width:1000px;
+	width:100%;
+	max-width:1200px;
 	margin:20px auto;
 	background:#f44336;
 }
@@ -54,7 +54,7 @@ section {
 
 @media screen and (max-width:800px ) {
 	header nav {
-		width:80%;
+		width:50%;
 		height:100%;
 		left:-100%;
 		margin:0;

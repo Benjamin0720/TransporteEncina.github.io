@@ -22,6 +22,11 @@ ul {
     padding: 0;
 }
 
+#ckbox:checked ~ .menu_box{
+    left: 0;
+    float: right;
+}
+
 .logo {
     text-align: center;
     font-size: 3em;
