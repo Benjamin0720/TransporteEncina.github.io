@@ -100,7 +100,7 @@ button,select{
     text-transform:none
 }
 button,[type=button],[type=reset],[type=submit]{
-    -webkit-appearance:button
+    -webkit-appearance:button;
 }
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
     border-style:none;
@@ -1164,7 +1164,7 @@ a{
 }
 .w3-red,.w3-hover-red:hover{
     color:#fff!important;
-    background-color:#f44336!important
+    background-color:#0C4EEF!important
 }
 .w3-sand,.w3-hover-sand:hover{
     color:#000!important;
@@ -1265,8 +1265,8 @@ a{
 .w3-text-deep-purple,.w3-hover-text-deep-purple:hover{
     color:#673ab7!important
 }
-.w3-text-red,.w3-hover-text-red:hover{
-    color:#f44336!important
+.w3-text-#0C4EEF,.w3-hover-text-red:hover{
+    color:#0C4EEF!important
 }
 .w3-text-sand,.w3-hover-text-sand:hover{
     color:#fdf5e6!important
@@ -1344,7 +1344,7 @@ a{
     border-color:#673ab7!important
 }
 .w3-border-red,.w3-hover-border-red:hover{
-    border-color:#f44336!important
+    border-color:#0C4EEF!important
 }
 .w3-border-sand,.w3-hover-border-sand:hover{
     border-color:#fdf5e6!important
